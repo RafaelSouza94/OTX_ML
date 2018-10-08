@@ -29,10 +29,12 @@ def main():
 
     choice = 0    
        
+    print("Number of pulses: {}\n".format(len(pulses)))
+	
     while choice != 9:
         print("Choose an option:\n")
-        print("1 - Update\n")
-        print("2 - Plot indicators\n")
+        print("1 - Update")
+        print("2 - Plot indicators")
         print("9 - Quit\n")
         
         choice = int(input('> '))
@@ -105,7 +107,7 @@ def plot_indicator_types(indicators):
         pass
 
     print("Total:\n{}\n".format(count_sum))
-    count_sum.plot.pie(figsize=(10, 10), subplots=True)
+    count_sum.plot.pie(figsize=(10, 10))
     plt.show()
 
     return
