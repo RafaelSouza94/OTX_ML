@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-otx = OTXv2("a159c57890c42781b8cdd2b156493d39b0477788ffa3ccbcf51cc4bb21dbaf76")
+otx = OTXv2("API_KEY")
 
 def main():
 
